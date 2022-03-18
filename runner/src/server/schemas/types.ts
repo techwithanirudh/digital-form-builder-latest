@@ -3,7 +3,7 @@ import { FeeDetails } from "server/services/payService";
 
 export type Field = {
   key: string;
-  type: ComponentType;
+  type?: ComponentType;
   title: string;
   answer: any;
 };
