@@ -1,4 +1,4 @@
-# XGov Digital Form Builder
+# XGov Digital Form Builder | Requires Node 12.0.0 | NVM | Check Prerequisites
 
 [![Gitter](https://badges.gitter.im/XGovFormBuilder/Public.svg)](https://gitter.im/XGovFormBuilder/Public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
