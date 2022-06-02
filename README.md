@@ -30,11 +30,11 @@ Also see the individual repo README files for additional info:
 **Always run scripts from the root directory.**
 
 1. Make sure you are using node >=12. upto 14. `node --version`.
-2. Make sure you have yarn 1.22+ installed. You do not need to install yarn 2.4+, yarn will detect the yarn 2 binary within [.yarn](./.yarn) and that will be used.
-3. If using the designer:
+3. Make sure you have yarn 1.22+ installed. You do not need to install yarn 2.4+, yarn will detect the yarn 2 binary within [.yarn](./.yarn) and that will be used.
+4. If using the designer:
    - Note that the designer requires the runner to be running with the default `NODE_ENV=development` settings (see [runner/config/development.json](https://github.com/XGovFormBuilder/digital-form-builder/tree/main/runner/config/development.json)) to enable posting and previewing of forms during design.
-4. Run `$ yarn` command to install all dependencies in all workspaces.
-5. Run `$ yarn build` to build all workspaces (this is needed because dependencies can depend on each other).
+5. Run `$ yarn` command to install all dependencies in all workspaces.
+6. Run `$ yarn build` to build all workspaces (this is needed because dependencies can depend on each other).
 
 As already mentioned, **always run scripts from the root directory.** because workspaces don't have scripts or packages you need to run from inside their folders and by running in the root directory yarn 2 can resolve the scripts/packages properly.
 
@@ -42,6 +42,19 @@ To learn more about workspaces, check these links:
 
 - [Workspaces in Yarn](https://classic.yarnpkg.com/blog/2017/08/02/introducing-workspaces/)
 - [Workspaces](https://classic.yarnpkg.com/en/docs/workspaces)
+
+### Prerequsites
+Nodejs 12.0.0
+
+Instructions to install using NVM.
+> Go to [NVM Linux/Mac Github](https://github.com/nvm-sh/nvm)
+> Go to [NVM Windows Github](https://github.com/coreybutler/nvm-windows)
+
+Installing Node 12.0.0
+> Open terminal
+> Type nvm
+> Then type nvm install 12.0.0
+> If linux or mac type sudo nvm use 12.0.0 in windows open an admin cmd and run nvm use 12.0.0
 
 ### I want to...
 
