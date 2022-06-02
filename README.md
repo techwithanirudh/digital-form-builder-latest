@@ -2,8 +2,6 @@
 
 [![Gitter](https://badges.gitter.im/XGovFormBuilder/Public.svg)](https://gitter.im/XGovFormBuilder/Public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# digital-form-builder
-
 This repository is forked from [DEFRA's digital form builder](https://github.com/DEFRA/digital-form-builder).
 The supplementary [designer](https://github.com/UKForeignOffice/digital-form-builder-designer) and [engine](https://github.com/UKForeignOffice/digital-form-engine) repositories have also been forked.
 These projects has been adapted to run several configurations on a single instance.
