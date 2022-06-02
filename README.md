@@ -47,6 +47,10 @@ Installing Node 12.0.0
 - Then type nvm install 12.0.0
 - If linux or mac type sudo nvm use 12.0.0 in windows open an admin cmd and run nvm use 12.0.0
 
+Installing Yarn 2.0
+- If you already have existing versions of yarn please remove them. (npm uninstall -g yarn)
+- You can install yarn by opening a terminal window and typing (npm install -g yarn)
+- Set version to 2.0.0 by running (yarn set version 2)
 
 ### Setup
 
