@@ -45,21 +45,21 @@ Also see the individual repo README files for additional info:
 - Install Node.js v12.0.0
 
 Instructions to install using NVM.
-> Go to [NVM Linux/Mac Github](https://github.com/nvm-sh/nvm)
-> Go to [NVM Windows Github](https://github.com/coreybutler/nvm-windows)
+- Go to [NVM Linux/Mac Github](https://github.com/nvm-sh/nvm)
+- Go to [NVM Windows Github](https://github.com/coreybutler/nvm-windows)
 
 Installing Node 12.0.0
-> Open terminal
-> Type nvm
-> Then type nvm install 12.0.0
-> If linux or mac type sudo nvm use 12.0.0 in windows open an admin cmd and run nvm use 12.0.0
+- Open terminal
+- Type nvm
+- Then type nvm install 12.0.0
+- If linux or mac type sudo nvm use 12.0.0 in windows open an admin cmd and run nvm use 12.0.0
 
 
 ### Setup
 
 **Always run scripts from the root directory.**
 
-1. Make sure you are using node >=12. upto 14. `node --version`.
+1. Make sure you are using node >=12. upto 14 (Means 13.9.9). `node --version`.
 3. Make sure you have yarn 1.22+ installed. You do not need to install yarn 2.4+, yarn will detect the yarn 2 binary within [.yarn](./.yarn) and that will be used.
 4. If using the designer:
    - Note that the designer requires the runner to be running with the default `NODE_ENV=development` settings (see [runner/config/development.json](https://github.com/XGovFormBuilder/digital-form-builder/tree/main/runner/config/development.json)) to enable posting and previewing of forms during design.
