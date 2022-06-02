@@ -2,6 +2,19 @@
 
 [![Gitter](https://badges.gitter.im/XGovFormBuilder/Public.svg)](https://gitter.im/XGovFormBuilder/Public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+# digital-form-builder
+
+This repository is forked from [DEFRA's digital form builder](https://github.com/DEFRA/digital-form-builder).
+The supplementary [designer](https://github.com/UKForeignOffice/digital-form-builder-designer) and [engine](https://github.com/UKForeignOffice/digital-form-engine) repositories have also been forked.
+These projects has been adapted to run several configurations on a single instance.
+
+
+> DEFRA's digital form builder is a metadata-driven framework that builds on our robust,
+enterprise backend tech stack and the new gov.uk frontend Design System and allows form based gov.uk sites to be easily
+built using a graphical design tool.
+
+The designer is no longer a plugin and is responsible for running itself on default port 3000. 
+
 ## contributions
 
 Issues and pull requests are welcome. Please check [CONTRIBUTING.md](./CONTRIBUTING.md) first!
@@ -25,7 +38,24 @@ Also see the individual repo README files for additional info:
 - [designer README](https://github.com/XGovFormBuilder/digital-form-builder/tree/main/designer/README.md)
 - [model README](https://github.com/XGovFormBuilder/digital-form-builder/tree/main/model/README.md)
 
-## Setup
+
+## Getting started
+
+### Prerequisites
+- Install Node.js v12.0.0
+
+Instructions to install using NVM.
+> Go to [NVM Linux/Mac Github](https://github.com/nvm-sh/nvm)
+> Go to [NVM Windows Github](https://github.com/coreybutler/nvm-windows)
+
+Installing Node 12.0.0
+> Open terminal
+> Type nvm
+> Then type nvm install 12.0.0
+> If linux or mac type sudo nvm use 12.0.0 in windows open an admin cmd and run nvm use 12.0.0
+
+
+### Setup
 
 **Always run scripts from the root directory.**
 
@@ -42,20 +72,6 @@ To learn more about workspaces, check these links:
 
 - [Workspaces in Yarn](https://classic.yarnpkg.com/blog/2017/08/02/introducing-workspaces/)
 - [Workspaces](https://classic.yarnpkg.com/en/docs/workspaces)
-
-### Prerequsites
-Nodejs 12.0.0
-
-Instructions to install using NVM.
-> Go to [NVM Linux/Mac Github](https://github.com/nvm-sh/nvm)
-> Go to [NVM Windows Github](https://github.com/coreybutler/nvm-windows)
-
-Installing Node 12.0.0
-> Open terminal
-> Type nvm
-> Then type nvm install 12.0.0
-> If linux or mac type sudo nvm use 12.0.0 in windows open an admin cmd and run nvm use 12.0.0
-
 ### I want to...
 
 #### run a specific workspaces' script
